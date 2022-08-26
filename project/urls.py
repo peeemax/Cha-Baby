@@ -14,6 +14,8 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.urls import path, include
+from main.views import PessoaRecadoView
+
 
 urlpatterns = [
     path('main/', include('main.urls')),
