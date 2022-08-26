@@ -1,3 +1,8 @@
 from django.contrib import admin
+from .models import PessoaRecado
 
-# Register your models here.
+class PessoaRecadoAdmin(admin.ModelAdmin):
+    list_display = ("nome_familia", "recado")
+ 
+   
+admin.site.register(PessoaRecado, PessoaRecadoAdmin)
