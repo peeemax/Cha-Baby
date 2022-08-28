@@ -1,2 +1,2 @@
 # Cha-BabyMax
-Será construída site do chá de bebê, com funcionalidade de pagamento de presentes para bebê, usuário tendo opção de deixar seu nome e deixar mensagem para os pais..
+Página de recados do chá de bebê. Construida em Django, com Bootstrap, HTML/BOOTSTRAP, DjangoAPIRest
